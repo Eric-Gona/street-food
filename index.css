@@ -16,8 +16,9 @@ right: 0;
 clip-path: circle(40% at 75% 5%);
 background-color:#649549 ;
 }
-.nav li{
-    text-decoration: none;
+li{
+text-decoration: none;
+ color: black;
 }
 #order{
     background-color: #6CB840;
@@ -110,10 +111,11 @@ body{
 background-color: white;
 margin: 70px;
 padding: 15px;
-height: 30vh;
+height: 50vh;
 border-bottom-right-radius: 20px;
 text-align: right;
 border-style:none;
+display: flex;
 }
 .explore .img{
     display: flex;
@@ -125,7 +127,7 @@ border-style:none;
 
 .contact{
     background-color: #FFD77C;
-    align:center;
+    align-content:center;
 }
 #deals{
     color:#6CB840 ;
