@@ -7,6 +7,7 @@ span{
 .footer{
     background-color: #C9ECB5;
     height: 300px;
+    width: 100%;
     display: inline-flex;
     flex-direction: row;
     margin: 0%;
@@ -32,7 +33,7 @@ span{
 body{
     font-family: poppins;
 }
-.nav li{
+.nav ul li{
     display: inline-flex;
     text-decoration: none;
 }
@@ -57,14 +58,11 @@ body{
 .explore{
     background-color: #649549;
 }
-.explore img{
-    background-color:white;
-    border-style:none;
-    border: bottom right radius 25px;
-    text-align:right;
-    margin:70px;
-    padding:20px;
+
+.explore{
+
 }
+
 button{
     background-color: #6CB840;
     color: white;
@@ -88,4 +86,10 @@ button{
 }
 #us{
     color: #6CB840;
+}
+.nav{
+    background-color: lightgray;
+    height: 80vh;
+    position: relative;
+ z-index: 0;
 }
