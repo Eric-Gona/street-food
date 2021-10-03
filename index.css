@@ -64,7 +64,7 @@ h1{
     padding: 0%;
 }
 .hot{
-    background-color: #6CB840;
+    background-color: #6CB840;  
 }
 #menu{
     color: #6CB840;
@@ -105,7 +105,7 @@ body{
     margin-top:70px;
 }
 .explore{
-    background-color: #89a07c;
+    background-color: #dcebd4;
 }
 .explore .img .one{
 background-color: white;
@@ -119,10 +119,9 @@ display: flex;
 }
 .explore .img{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-evenly;
-    padding: 10px;
+    float:left;
 }
 
 .contact{
@@ -136,6 +135,9 @@ display: flex;
     color: #6CB840;
 }
 #us{
-    color: #6CB840;
+    color: #62f10f;
 }
-
+.content{
+    float:right;
+    align-content: center;
+}
