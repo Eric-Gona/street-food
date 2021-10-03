@@ -16,7 +16,7 @@ right: 0;
 clip-path: circle(40% at 75% 5%);
 background-color:#649549 ;
 }
-li{
+ ul li{
 text-decoration: none;
  color: black;
 }
