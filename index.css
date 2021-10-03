@@ -27,6 +27,10 @@ text-decoration: none;
  margin: 15px;
  padding: 40px;
 }
+
+.street{
+    text-align: center;
+}
 #order{
     background-color: #6CB840;
     color: white;
