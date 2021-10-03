@@ -13,7 +13,7 @@ top: 0;
 bottom: 0;
 left: 0; 
 right: 0;
-clip-path: circle(40% at 70% 5%);
+clip-path: circle(40% at 75% 5%);
 background-color:#649549 ;
 }
 .nav li{
@@ -99,7 +99,7 @@ body{
     margin-right: 200px;
     margin-top: 70px;
 }
-.tnt{
+.address{
     margin-right:200px;
     margin-top:70px;
 }
