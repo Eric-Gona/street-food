@@ -6,7 +6,7 @@ span{
 }
 .footer{
     background-color: #C9ECB5;
-    height: 400px;
+    height: 300px;
     display: inline-flex;
     flex-direction: row;
     margin: 0%;
@@ -26,7 +26,7 @@ span{
     text-align: center;
    padding-top: 300px;
 }
-.explore h3{
+.explore h1{
     color: black;
 }
 body{
@@ -37,7 +37,7 @@ body{
     text-decoration: none;
 }
 .hot{
-    background-color: #649549;
+    background-color: #C9ECB5;
     display:inline-block;
     flex-wrap: wrap;
 }
@@ -55,9 +55,9 @@ body{
     margin-top:70px;
 }
 .explore{
-    background-color: #C9ECB5;
+    background-color: #649549;
 }
-.explore img 1.png{
+.explore img{
     background-color:white;
     border-style:none;
     border: bottom right radius 25px;
@@ -75,4 +75,17 @@ button{
     border-radius: 25px;
     font-size: 25px;
     margin-left: 150px;
+}
+.contact{
+    background-color: #FFD77C;
+    align:center;
+}
+#deals{
+    color:#6CB840 ;
+}
+#SPEACIAL{
+    color: #6CB840;
+}
+#us{
+    color: #6CB840;
 }
