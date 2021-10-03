@@ -1,9 +1,58 @@
-h1{
-    color: #6CB840;
+/* nav style */
+.nav{
+    background-color: lightgray;
+    height: 80vh;
+    position: relative;
+ z-index: 0;
+}
+.nav:before{
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+bottom: 0;
+left: 0; 
+right: 0;
+clip-path: circle(40% at 70% 8%);
+background-color:#649549 ;
+}
+.nav li{
+    text-decoration: none;
+}
+#order{
+    background-color: #6CB840;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 25px;
+    margin-left: 150px;
+}
+
+#button{
+    background-color: #6CB840;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 25px;
+    margin-left: 150px;
 }
 span{
     color: #EAAB1B;
 }
+
+h1{
+    color: #6CB840;
+}
+
+
+
+
 .footer{
     background-color: #C9ECB5;
     height: 300px;
@@ -33,10 +82,7 @@ span{
 body{
     font-family: poppins;
 }
-.nav ul li{
-    display: inline-flex;
-    text-decoration: none;
-}
+
 .hot{
     background-color: #C9ECB5;
     display:inline-block;
@@ -59,21 +105,8 @@ body{
     background-color: #649549;
 }
 
-.explore{
 
-}
 
-button{
-    background-color: #6CB840;
-    color: white;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 25px;
-    font-size: 25px;
-    margin-left: 150px;
-}
 .contact{
     background-color: #FFD77C;
     align:center;
@@ -87,9 +120,4 @@ button{
 #us{
     color: #6CB840;
 }
-.nav{
-    background-color: lightgray;
-    height: 80vh;
-    position: relative;
- z-index: 0;
-}
+
