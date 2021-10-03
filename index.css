@@ -13,7 +13,7 @@ top: 0;
 bottom: 0;
 left: 0; 
 right: 0;
-clip-path: circle(40% at 70% 8%);
+clip-path: circle(40% at 70% 5%);
 background-color:#649549 ;
 }
 .nav li{
@@ -55,7 +55,7 @@ h1{
 
 .footer{
     background-color: #C9ECB5;
-    height: 300px;
+    height: 50%;
     width: 100%;
     display: inline-flex;
     flex-direction: row;
@@ -81,12 +81,14 @@ h1{
 }
 body{
     font-family: poppins;
+    height: 100%;
 }
 
 .hot{
     background-color: #C9ECB5;
     display:inline-block;
     flex-wrap: wrap;
+    width: 100%;
 }
 .sunday{
     margin-right: 200px;
@@ -102,10 +104,24 @@ body{
     margin-top:70px;
 }
 .explore{
-    background-color: #649549;
+    background-color: #89a07c;
 }
-
-
+.explore .img .one{
+background-color: white;
+margin: 70px;
+padding: 15px;
+height: 30vh;
+border-bottom-right-radius: 20px;
+text-align: right;
+border-style:none;
+}
+.explore .img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+}
 
 .contact{
     background-color: #FFD77C;
